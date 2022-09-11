@@ -40,7 +40,7 @@
 ## x = V(1,1,1);   % load element 1,1,1
 ## x = V(:,:,:);   % load the complete array
 ## x = V();  x = full(V)  % loads also the complete array
-## @endexample
+## @end example
 ##
 ## Saving data in the netcdf file:
 ## @example

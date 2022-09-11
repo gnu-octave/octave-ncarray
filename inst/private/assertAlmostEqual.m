@@ -33,7 +33,7 @@ function assertAlmostEqual(observed,expected)
   % for octave prior to 3.8.0
   if isempty(which('isequaln'))
     isequaln = @(x,y) isequalwithequalnans(x,y);
-  end
+  endif
 
   % check also NaNS
   assert(isequal(isnan(observed),isnan(expected)))
