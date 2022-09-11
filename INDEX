@@ -7,7 +7,6 @@ ncArray
   ncreadtime
   cached_decompress
   @ncArray/coord
-  @ncArray/ncArray
   @ncArray/subsasgn
   @ncArray/subsref
 ncBaseArray
