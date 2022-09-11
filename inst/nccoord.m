@@ -26,7 +26,7 @@
 ##
 ## @var{varname} - variable name
 ##
-#@ @subsubheading Outputs
+## @subsubheading Outputs
 ## @var{dims} - a cell-array of the dimensions of varname
 ##
 ## @var{coord} - an array of structures with the field 'name'

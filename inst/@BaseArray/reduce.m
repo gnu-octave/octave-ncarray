@@ -14,7 +14,7 @@
 ## along with this program; If not, see <http://www.gnu.org/licenses/>.
 
 ## -*- texinfo -*-
-## @deftypefn {} {[@var{s}, @var{n}] =} reducce(@var{A}, @var{funred}, @var{funelem, @var{dim})
+## @deftypefn {} {[@var{s}, @var{n}] =} reducce(@var{A}, @var{funred}, @var{funelem}, @var{dim})
 ## Reduce array using callback fundtions.
 ##
 ## Reduce array using the function FUNRED applied to all elements 
