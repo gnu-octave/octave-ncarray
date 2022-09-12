@@ -115,19 +115,19 @@ function fname = cached_decompress(url)
         endif
 
         if endswith(url,'.zip')
-          func_uncomp = @unzip
+          func_uncomp = @unzip;
         elseif endswith(url,'.gz')
-          func_uncomp = @gunzip
+          func_uncomp = @gunzip;
         elseif endswith(url,'.bz2')
-          func_uncomp = @bunzip2
+          func_uncomp = @bunzip2;
         else
-          func_uncomp = []
+          func_uncomp = [];
         endif
 
         if !isempty(func_uncomp)
-          files = func_uncomp(tmp_file, tmp_dir)
+          files = func_uncomp(tmp_file, tmp_dir);
         else
-          files = {tmp_file}
+          files = {tmp_file};
         endif
 
         if length(files) != 1
