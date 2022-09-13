@@ -1,3 +1,12 @@
+Summary of important user-visible changes for ncarray 1.0.5:
+------------------------------------------------------------
+
+ ** minor updates for octave compatability
+
+ ** update function docs for texinfo
+
+ ** change license from gplv2+ to gplv3+
+
 Summary of important user-visible changes for ncarray 1.0.4:
 ------------------------------------------------------------
 
