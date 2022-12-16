@@ -39,7 +39,11 @@ end
 
 data = ncCatArray(3,files,varname);
 reddata = nanmean(data,3);
-reddataref = nanmean(dataref,3);
+if exist ("nanmean")
+  reddataref = nanmean(dataref,3);
+else
+  reddataref = mean(dataref,3, 'omitnan');
+endif
 assertAlmostEqual(reddata, reddataref)
 
 reddata = nansum(data,3);
@@ -47,12 +51,20 @@ reddataref = nansum(dataref,3);
 assertAlmostEqual(reddata, reddataref)
 
 reddata = nanvar(data,[],3);
-reddataref = nanvar(dataref,[],3);
+if exist ("nanvar")
+  reddataref = nanvar(dataref,[],3);
+else
+  reddataref = var(dataref,[],3, 'omitnan');
+endif
 diff = reddata - reddataref;
 assert(max(diff(:)) < 1e-6)
 
 reddata = nanstd(data,[],3);
-reddataref = nanstd(dataref,[],3);
+if exist ("nanstd")
+  reddataref = nanstd(dataref,[],3);
+else
+  reddataref = std(dataref,[],3, 'omitnan');
+endif
 diff = reddata - reddataref;
 assert(max(diff(:)) < 1e-6)
 

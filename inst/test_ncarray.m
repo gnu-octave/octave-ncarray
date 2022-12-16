@@ -104,7 +104,11 @@ function test_ncarray()
   % sum
 
   nanmeanSST = nanmean(SST);
-  nanmeanSSTref = nanmean(SST_ref);
+  if exist ("nanmean")
+    nanmeanSSTref = nanmean(SST_ref);
+  else
+    nanmeanSSTref = mean(SST_ref, 'omitnan');
+  endif
   assertAlmostEqual(nanmeanSST, nanmeanSSTref)
 
   %momentSST = moment(SST,2,1);
