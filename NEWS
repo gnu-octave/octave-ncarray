@@ -1,7 +1,12 @@
+Summary of important user-visible changes for ncarray 1.0.6:
+------------------------------------------------------------
+
+ ** minor updates for octave compatibility
+
 Summary of important user-visible changes for ncarray 1.0.5:
 ------------------------------------------------------------
 
- ** minor updates for octave compatability
+ ** minor updates for octave compatibility
 
  ** update function docs for texinfo
 
@@ -16,8 +21,8 @@ Summary of important user-visible changes for ncarray 1.0.4:
 Summary of important user-visible changes for ncarray 1.0.3:
 ------------------------------------------------------------
 
- ** use lower-case package name as upper-case latters in the package name can 
-    cause troubles wiht pkg.
+ ** use lower-case package name as upper-case letters in the package name can 
+    cause troubles with pkg.
  ** new functions nctimeunits and ncreadtime for handling time variables.
 
 Summary of important user-visible changes for ncArray 1.0.2:
