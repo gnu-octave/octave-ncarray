@@ -163,7 +163,7 @@ units = SST.units;
 @subheading Using ncCatArray
 # Concatentate files over the 3rd dimention
 @example
-SST = ncCatArray(3,{'file1.nc','file2.nc','file3.nc'},'SST');
+SST = ncCatArray(3,@{'file1.nc','file2.nc','file3.nc'@},'SST');
 @end example
 
 Load / access the file as an array
