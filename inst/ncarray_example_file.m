@@ -37,7 +37,8 @@ function ncarray_example_file(filename,data)
   nccreate(filename,'SST','Datatype',dtype,'Dimensions',...
            {'x',sz(1), 'y',sz(2), 'time',1});
   ncwriteatt(filename,'SST','missing_value',single(9999))
-  ncwriteatt(filename,'SST','_FillValue',single(9999))
+ # ncwriteatt(filename,'SST','_FillValue',single(9999))
+ncwriteatt(filename,'SST','_FillValue',double(9999))
   ncwriteatt(filename,'SST','units','degC')
   ncwriteatt(filename,'SST','long_name','Sea Surface Temperature')
   ncwriteatt(filename,'SST','coordinates','lat lon')
