@@ -93,9 +93,20 @@ or can be installed in an off-line mode via a downloaded tarball.
 
 The toolkit must be then be loaded once per each @acronym{GNU} Octave session in order to use its functionality.
 
+The toolkit requires the statistics package and the netcdf package to be installed ebfore installing the 
+ncArray toolkit.
+
+To verify the required packages are installed run:
+@example
+pkg list netcdf
+pkg statistics
+@end example
+
+Install the required toolkits if they are not installed before installing the ncarray toolkit.
+
 @section Online Direct install
 @cindex Online install
-With an internet connection available, the Sockets package can be installed from
+With an internet connection available, the toolkit can be installed from
 octave-forge using the following command within @acronym{GNU} Octave:
 
 @example
@@ -129,7 +140,39 @@ The toolkit must be loaded on each @acronym{GNU} Octave session.
 @chapter Basic Usage Overview
 @cindex Basic Usage Overview
 
-TDB
+@subheading Using ncArray
+
+Create a array object:
+@example
+SST = ncArray('file1.nc','SST');
+@end example
+
+Load / access the file as an array
+@example
+#! load the whole file
+data = SST(:,:,:);
+#! Load a single value
+data = SST(3,2,1);
+@end example
+
+Get the attrubute 'units'
+@example
+units = SST.units;
+@end example
+
+@subheading Using ncCatArray
+# Concatentate files over the 3rd dimention
+@example
+SST = ncCatArray(3,{'file1.nc','file2.nc','file3.nc'},'SST');
+@end example
+
+Load / access the file as an array
+@example
+#! load all the files file
+data = SST(:,:,:);
+#! Load a single value from the 3rd file
+data = SST(1,2,3);
+@end example
 
 @c -------------------------------------------------------------------------
 @node Function Reference
