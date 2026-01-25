@@ -8,4 +8,6 @@ Description: Access a single or a collection of NetCDF files as a multi-dimensio
 Categories: IO
 Depends: octave (>= 3.4.0), netcdf (>= 1.0.2), statistics (>= 1.0.6)
 License: GPLv3+
-Url: https://octave.sourceforge.io/ncarray/index.html
+Url: https://gnu-octave.github.io/octave-ncarray/
+Respository: https://github.com/gnu-octave/octave-ncarray/
+Tracker: https://github.com/gnu-octave/octave-ncarray/issues
