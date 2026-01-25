@@ -13,6 +13,7 @@ of NetCDF files as a multi-dimensional array
 
 * [Octave Netcdf Toolkit](https://gnu-octave.github.io/packages/netcdf/)
 
+* [Octave Statistcs Toolkit](https://gnu-octave.github.io/packages/statistics/)
 
 ## Installing
 
