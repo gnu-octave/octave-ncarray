@@ -149,9 +149,9 @@ SST = ncArray('file1.nc','SST');
 
 Load / access the file as an array
 @example
-#! load the whole file
+# load the whole file
 data = SST(:,:,:);
-#! Load a single value
+# Load a single value
 data = SST(3,2,1);
 @end example
 
@@ -168,9 +168,9 @@ SST = ncCatArray(3,@{'file1.nc','file2.nc','file3.nc'@},'SST');
 
 Load / access the file as an array
 @example
-#! load all the files file
+# load all the files file
 data = SST(:,:,:);
-#! Load a single value from the 3rd file
+# Load a single value from the 3rd file
 data = SST(1,2,3);
 @end example
 
