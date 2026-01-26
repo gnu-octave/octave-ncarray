@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Octave Signal Toolkit
+title: Octave NetCDF Array Toolkit
 email: "John Donoghue <john.donoghue@ieee.org>"
 author: "Octave Forge Developers"
 logo: "/assets/pkg.png"
