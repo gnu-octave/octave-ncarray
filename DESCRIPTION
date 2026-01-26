@@ -9,5 +9,5 @@ Categories: IO
 Depends: octave (>= 3.4.0), netcdf (>= 1.0.2), statistics (>= 1.0.6)
 License: GPLv3+
 Url: https://gnu-octave.github.io/octave-ncarray/
-Respository: https://github.com/gnu-octave/octave-ncarray/
+Repository: https://github.com/gnu-octave/octave-ncarray/
 Tracker: https://github.com/gnu-octave/octave-ncarray/issues
