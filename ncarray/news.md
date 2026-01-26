@@ -1,0 +1,74 @@
+---
+layout: "default"
+permalink: "/news/"
+title: "Ncarray Toolkit - News"
+pkg_name: "ncarray"
+version: "1.0.6"
+description: "Access a single or a collection of NetCDF files as a multi-dimensional array"
+navigation:
+- id: "overview"
+  name: "Overview"
+  url: "/index"
+- id: "Functions"
+  name: "Function Reference"
+  url: "/functions"
+- id: "news"
+  name: "News"
+- id: "manual"
+  name: "Manual"
+  url: "/manual"
+---
+<pre>
+Summary of important user-visible changes for ncarray 1.0.6:
+------------------------------------------------------------
+
+ ** minor updates for octave compatibility
+
+Summary of important user-visible changes for ncarray 1.0.5:
+------------------------------------------------------------
+
+ ** minor updates for octave compatibility
+
+ ** update function docs for texinfo
+
+ ** change license from gplv2+ to gplv3+
+
+Summary of important user-visible changes for ncarray 1.0.4:
+------------------------------------------------------------
+
+ ** Avoid obsolete strmatch function
+ ** Use a tolerance in test script (bug #49391)
+
+Summary of important user-visible changes for ncarray 1.0.3:
+------------------------------------------------------------
+
+ ** use lower-case package name as upper-case letters in the package name can 
+    cause troubles with pkg.
+ ** new functions nctimeunits and ncreadtime for handling time variables.
+
+Summary of important user-visible changes for ncArray 1.0.2:
+------------------------------------------------------------
+
+ ** new function: nansum, nanvar, nanstd: mean, variance, standard deviation
+    ignoring NaNs
+ ** ncarray nows depends on package netcdf (instead of octcdf)
+ ** Add missing dependency to statistics
+ ** Avoid obsolete isequalwithequalnans functions
+
+Summary of important user-visible changes for ncArray 1.0.1:
+------------------------------------------------------------
+
+ ** new function: nanmean: mean ignoring NaNs
+ ** new function: load: load data based on a coordinate range or a single 
+    value (only 1-dimensional coordinates are currently supported)
+ ** CACHED_DECOMPRESS_DIR defaults now to a directory inside the system temporary 
+    directory (/tmp on Linux)
+ ** add support for xz compression
+ ** optimization of assignement operator
+ ** add units and standard_name in nccoord
+
+Summary of important user-visible changes for ncArray 1.0.0:
+------------------------------------------------------------
+
+ ** Initial release
+</pre>
