@@ -3,7 +3,7 @@ layout: "default"
 permalink: "/manual/"
 title: "Ncarray Toolkit - Manual"
 pkg_name: "ncarray"
-version: "1.0.6"
+version: "1.0.7"
 description: "Access a single or a collection of NetCDF files as a multi-dimensional array"
 navigation:
 - id: "overview"
@@ -126,7 +126,7 @@ octave-forge using the following command within <abbr class="acronym">GNU</abbr>
 <abbr class="acronym">GNU</abbr> Octave, the package can be installed using the following command within <abbr class="acronym">GNU</abbr> Octave:
 </p>
 <div class="example">
-<pre class="example-preformatted">pkg install ncarray-1.0.6.tar.gz
+<pre class="example-preformatted">pkg install ncarray-1.0.7.tar.gz
 </pre></div>
 </div>
 <div class="section-level-extent" id="Loading">
@@ -1259,7 +1259,7 @@ first, please read <a class="url" href="http://www.gnu.org/philosophy/why-not-lg
 <h2 class="unnumbered" id="Index-1">Index</h2>
  
 <div class="printindex cp-printindex">
-<table class="cp-letters-header-printindex"><tr><th>Jump to: &nbsp; </th><td><a class="summary-letter-printindex" href="#Index_cp_letter-B"><b>B</b></a>
+<table class="index-letters-header-printindex cp-letters-header-printindex"><tr><th>Jump to: &nbsp; </th><td><a class="summary-letter-printindex" href="#Index_cp_letter-B"><b>B</b></a>
  &nbsp; 
 <a class="summary-letter-printindex" href="#Index_cp_letter-C"><b>C</b></a>
  &nbsp; 
@@ -1290,78 +1290,77 @@ first, please read <a class="url" href="http://www.gnu.org/philosophy/why-not-lg
 <a class="summary-letter-printindex" href="#Index_cp_letter-W"><b>W</b></a>
  &nbsp; 
 </td></tr></table>
-<table class="cp-entries-printindex">
-<tr><td></td><th class="entries-header-printindex">Index Entry</th><th class="sections-header-printindex">Section</th></tr>
-<tr><td colspan="3"><hr></td></tr>
-<tr><th id="Index_cp_letter-B">B</th></tr>
-<tr><td></td><td class="printindex-index-entry"><a href="#index-BaseArray">BaseArray</a></td><td class="printindex-index-section"><a href="#ncBaseArray">ncBaseArray</a></td></tr>
-<tr><td></td><td class="printindex-index-entry"><a href="#index-Basic-Usage-Overview">Basic Usage Overview</a></td><td class="printindex-index-section"><a href="#Basic-Usage-Overview">Basic Usage Overview</a></td></tr>
-<tr><td colspan="3"><hr></td></tr>
-<tr><th id="Index_cp_letter-C">C</th></tr>
-<tr><td></td><td class="printindex-index-entry"><a href="#index-cached_005fdecompress">cached_decompress</a></td><td class="printindex-index-section"><a href="#ncArray">ncArray</a></td></tr>
-<tr><td></td><td class="printindex-index-entry"><a href="#index-coord">coord</a></td><td class="printindex-index-section"><a href="#ncArray">ncArray</a></td></tr>
-<tr><td></td><td class="printindex-index-entry"><a href="#index-copyright">copyright</a></td><td class="printindex-index-section"><a href="#Copying">Copying</a></td></tr>
-<tr><td colspan="3"><hr></td></tr>
-<tr><th id="Index_cp_letter-E">E</th></tr>
-<tr><td></td><td class="printindex-index-entry"><a href="#index-end">end</a></td><td class="printindex-index-section"><a href="#ncBaseArray">ncBaseArray</a></td></tr>
-<tr><td colspan="3"><hr></td></tr>
-<tr><th id="Index_cp_letter-F">F</th></tr>
-<tr><td></td><td class="printindex-index-entry"><a href="#index-full">full</a></td><td class="printindex-index-section"><a href="#ncBaseArray">ncBaseArray</a></td></tr>
-<tr><td></td><td class="printindex-index-entry"><a href="#index-Function-Reference">Function Reference</a></td><td class="printindex-index-section"><a href="#Function-Reference">Function Reference</a></td></tr>
-<tr><td colspan="3"><hr></td></tr>
-<tr><th id="Index_cp_letter-I">I</th></tr>
-<tr><td></td><td class="printindex-index-entry"><a href="#index-Installing-and-loading">Installing and loading</a></td><td class="printindex-index-section"><a href="#Installing-and-loading">Installing and loading</a></td></tr>
-<tr><td></td><td class="printindex-index-entry"><a href="#index-isnumeric">isnumeric</a></td><td class="printindex-index-section"><a href="#ncBaseArray">ncBaseArray</a></td></tr>
-<tr><td colspan="3"><hr></td></tr>
-<tr><th id="Index_cp_letter-L">L</th></tr>
-<tr><td></td><td class="printindex-index-entry"><a href="#index-Loading">Loading</a></td><td class="printindex-index-section"><a href="#Installing-and-loading">Installing and loading</a></td></tr>
-<tr><td colspan="3"><hr></td></tr>
-<tr><th id="Index_cp_letter-M">M</th></tr>
-<tr><td></td><td class="printindex-index-entry"><a href="#index-max">max</a></td><td class="printindex-index-section"><a href="#ncBaseArray">ncBaseArray</a></td></tr>
-<tr><td></td><td class="printindex-index-entry"><a href="#index-mean">mean</a></td><td class="printindex-index-section"><a href="#ncBaseArray">ncBaseArray</a></td></tr>
-<tr><td></td><td class="printindex-index-entry"><a href="#index-min">min</a></td><td class="printindex-index-section"><a href="#ncBaseArray">ncBaseArray</a></td></tr>
-<tr><td></td><td class="printindex-index-entry"><a href="#index-moment">moment</a></td><td class="printindex-index-section"><a href="#ncBaseArray">ncBaseArray</a></td></tr>
-<tr><td colspan="3"><hr></td></tr>
-<tr><th id="Index_cp_letter-N">N</th></tr>
-<tr><td></td><td class="printindex-index-entry"><a href="#index-ncArray">ncArray</a></td><td class="printindex-index-section"><a href="#ncArray">ncArray</a></td></tr>
-<tr><td></td><td class="printindex-index-entry"><a href="#index-ncArray-1">ncArray</a></td><td class="printindex-index-section"><a href="#ncArray">ncArray</a></td></tr>
-<tr><td></td><td class="printindex-index-entry"><a href="#index-ncBaseArray">ncBaseArray</a></td><td class="printindex-index-section"><a href="#ncBaseArray">ncBaseArray</a></td></tr>
-<tr><td></td><td class="printindex-index-entry"><a href="#index-ncCatArray">ncCatArray</a></td><td class="printindex-index-section"><a href="#ncArray">ncArray</a></td></tr>
-<tr><td></td><td class="printindex-index-entry"><a href="#index-nccoord">nccoord</a></td><td class="printindex-index-section"><a href="#ncArray">ncArray</a></td></tr>
-<tr><td></td><td class="printindex-index-entry"><a href="#index-ncreadtime">ncreadtime</a></td><td class="printindex-index-section"><a href="#ncArray">ncArray</a></td></tr>
-<tr><td></td><td class="printindex-index-entry"><a href="#index-nctimeunits">nctimeunits</a></td><td class="printindex-index-section"><a href="#ncArray">ncArray</a></td></tr>
-<tr><td></td><td class="printindex-index-entry"><a href="#index-numel">numel</a></td><td class="printindex-index-section"><a href="#ncBaseArray">ncBaseArray</a></td></tr>
-<tr><td colspan="3"><hr></td></tr>
-<tr><th id="Index_cp_letter-O">O</th></tr>
-<tr><td></td><td class="printindex-index-entry"><a href="#index-Off_002dline-install">Off-line install</a></td><td class="printindex-index-section"><a href="#Installing-and-loading">Installing and loading</a></td></tr>
-<tr><td></td><td class="printindex-index-entry"><a href="#index-Online-install">Online install</a></td><td class="printindex-index-section"><a href="#Installing-and-loading">Installing and loading</a></td></tr>
-<tr><td colspan="3"><hr></td></tr>
-<tr><th id="Index_cp_letter-P">P</th></tr>
-<tr><td></td><td class="printindex-index-entry"><a href="#index-prod">prod</a></td><td class="printindex-index-section"><a href="#ncBaseArray">ncBaseArray</a></td></tr>
-<tr><td colspan="3"><hr></td></tr>
-<tr><th id="Index_cp_letter-R">R</th></tr>
-<tr><td></td><td class="printindex-index-entry"><a href="#index-reduce">reduce</a></td><td class="printindex-index-section"><a href="#ncBaseArray">ncBaseArray</a></td></tr>
-<tr><td colspan="3"><hr></td></tr>
-<tr><th id="Index_cp_letter-S">S</th></tr>
-<tr><td></td><td class="printindex-index-entry"><a href="#index-size">size</a></td><td class="printindex-index-section"><a href="#ncBaseArray">ncBaseArray</a></td></tr>
-<tr><td></td><td class="printindex-index-entry"><a href="#index-std">std</a></td><td class="printindex-index-section"><a href="#ncBaseArray">ncBaseArray</a></td></tr>
-<tr><td></td><td class="printindex-index-entry"><a href="#index-subsasgn">subsasgn</a></td><td class="printindex-index-section"><a href="#ncArray">ncArray</a></td></tr>
-<tr><td></td><td class="printindex-index-entry"><a href="#index-subsref">subsref</a></td><td class="printindex-index-section"><a href="#ncArray">ncArray</a></td></tr>
-<tr><td></td><td class="printindex-index-entry"><a href="#index-sum">sum</a></td><td class="printindex-index-section"><a href="#ncBaseArray">ncBaseArray</a></td></tr>
-<tr><td></td><td class="printindex-index-entry"><a href="#index-sumsq">sumsq</a></td><td class="printindex-index-section"><a href="#ncBaseArray">ncBaseArray</a></td></tr>
-<tr><td colspan="3"><hr></td></tr>
-<tr><th id="Index_cp_letter-T">T</th></tr>
-<tr><td></td><td class="printindex-index-entry"><a href="#index-Test-script">Test script</a></td><td class="printindex-index-section"><a href="#Test-script">Test script</a></td></tr>
-<tr><td></td><td class="printindex-index-entry"><a href="#index-test_005fncarray">test_ncarray</a></td><td class="printindex-index-section"><a href="#Test-script">Test script</a></td></tr>
-<tr><td colspan="3"><hr></td></tr>
-<tr><th id="Index_cp_letter-V">V</th></tr>
-<tr><td></td><td class="printindex-index-entry"><a href="#index-var">var</a></td><td class="printindex-index-section"><a href="#ncBaseArray">ncBaseArray</a></td></tr>
-<tr><td colspan="3"><hr></td></tr>
-<tr><th id="Index_cp_letter-W">W</th></tr>
-<tr><td></td><td class="printindex-index-entry"><a href="#index-warranty">warranty</a></td><td class="printindex-index-section"><a href="#Copying">Copying</a></td></tr>
-<tr><td colspan="3"><hr></td></tr>
+<table class="index-entries-printindex cp-entries-printindex">
+<tr><td colspan="2"><hr></td></tr>
+<tr><th class="index-letter-header-printindex cp-letter-header-printindex" colspan="2" id="Index_cp_letter-B">B</th></tr>
+<tr><td class="printindex-index-entry"><a href="#index-BaseArray">BaseArray</a></td><td class="printindex-index-section"><a href="#ncBaseArray">ncBaseArray</a></td></tr>
+<tr><td class="printindex-index-entry"><a href="#index-Basic-Usage-Overview">Basic Usage Overview</a></td><td class="printindex-index-section"><a href="#Basic-Usage-Overview">Basic Usage Overview</a></td></tr>
+<tr><td colspan="2"><hr></td></tr>
+<tr><th class="index-letter-header-printindex cp-letter-header-printindex" colspan="2" id="Index_cp_letter-C">C</th></tr>
+<tr><td class="printindex-index-entry"><a href="#index-cached_005fdecompress">cached_decompress</a></td><td class="printindex-index-section"><a href="#ncArray">ncArray</a></td></tr>
+<tr><td class="printindex-index-entry"><a href="#index-coord">coord</a></td><td class="printindex-index-section"><a href="#ncArray">ncArray</a></td></tr>
+<tr><td class="printindex-index-entry"><a href="#index-copyright">copyright</a></td><td class="printindex-index-section"><a href="#Copying">Copying</a></td></tr>
+<tr><td colspan="2"><hr></td></tr>
+<tr><th class="index-letter-header-printindex cp-letter-header-printindex" colspan="2" id="Index_cp_letter-E">E</th></tr>
+<tr><td class="printindex-index-entry"><a href="#index-end">end</a></td><td class="printindex-index-section"><a href="#ncBaseArray">ncBaseArray</a></td></tr>
+<tr><td colspan="2"><hr></td></tr>
+<tr><th class="index-letter-header-printindex cp-letter-header-printindex" colspan="2" id="Index_cp_letter-F">F</th></tr>
+<tr><td class="printindex-index-entry"><a href="#index-full">full</a></td><td class="printindex-index-section"><a href="#ncBaseArray">ncBaseArray</a></td></tr>
+<tr><td class="printindex-index-entry"><a href="#index-Function-Reference">Function Reference</a></td><td class="printindex-index-section"><a href="#Function-Reference">Function Reference</a></td></tr>
+<tr><td colspan="2"><hr></td></tr>
+<tr><th class="index-letter-header-printindex cp-letter-header-printindex" colspan="2" id="Index_cp_letter-I">I</th></tr>
+<tr><td class="printindex-index-entry"><a href="#index-Installing-and-loading">Installing and loading</a></td><td class="printindex-index-section"><a href="#Installing-and-loading">Installing and loading</a></td></tr>
+<tr><td class="printindex-index-entry"><a href="#index-isnumeric">isnumeric</a></td><td class="printindex-index-section"><a href="#ncBaseArray">ncBaseArray</a></td></tr>
+<tr><td colspan="2"><hr></td></tr>
+<tr><th class="index-letter-header-printindex cp-letter-header-printindex" colspan="2" id="Index_cp_letter-L">L</th></tr>
+<tr><td class="printindex-index-entry"><a href="#index-Loading">Loading</a></td><td class="printindex-index-section"><a href="#Installing-and-loading">Installing and loading</a></td></tr>
+<tr><td colspan="2"><hr></td></tr>
+<tr><th class="index-letter-header-printindex cp-letter-header-printindex" colspan="2" id="Index_cp_letter-M">M</th></tr>
+<tr><td class="printindex-index-entry"><a href="#index-max">max</a></td><td class="printindex-index-section"><a href="#ncBaseArray">ncBaseArray</a></td></tr>
+<tr><td class="printindex-index-entry"><a href="#index-mean">mean</a></td><td class="printindex-index-section"><a href="#ncBaseArray">ncBaseArray</a></td></tr>
+<tr><td class="printindex-index-entry"><a href="#index-min">min</a></td><td class="printindex-index-section"><a href="#ncBaseArray">ncBaseArray</a></td></tr>
+<tr><td class="printindex-index-entry"><a href="#index-moment">moment</a></td><td class="printindex-index-section"><a href="#ncBaseArray">ncBaseArray</a></td></tr>
+<tr><td colspan="2"><hr></td></tr>
+<tr><th class="index-letter-header-printindex cp-letter-header-printindex" colspan="2" id="Index_cp_letter-N">N</th></tr>
+<tr><td class="printindex-index-entry"><a href="#index-ncArray">ncArray</a></td><td class="printindex-index-section"><a href="#ncArray">ncArray</a></td></tr>
+<tr><td class="printindex-index-entry"><a href="#index-ncArray-1">ncArray</a></td><td class="printindex-index-section"><a href="#ncArray">ncArray</a></td></tr>
+<tr><td class="printindex-index-entry"><a href="#index-ncBaseArray">ncBaseArray</a></td><td class="printindex-index-section"><a href="#ncBaseArray">ncBaseArray</a></td></tr>
+<tr><td class="printindex-index-entry"><a href="#index-ncCatArray">ncCatArray</a></td><td class="printindex-index-section"><a href="#ncArray">ncArray</a></td></tr>
+<tr><td class="printindex-index-entry"><a href="#index-nccoord">nccoord</a></td><td class="printindex-index-section"><a href="#ncArray">ncArray</a></td></tr>
+<tr><td class="printindex-index-entry"><a href="#index-ncreadtime">ncreadtime</a></td><td class="printindex-index-section"><a href="#ncArray">ncArray</a></td></tr>
+<tr><td class="printindex-index-entry"><a href="#index-nctimeunits">nctimeunits</a></td><td class="printindex-index-section"><a href="#ncArray">ncArray</a></td></tr>
+<tr><td class="printindex-index-entry"><a href="#index-numel">numel</a></td><td class="printindex-index-section"><a href="#ncBaseArray">ncBaseArray</a></td></tr>
+<tr><td colspan="2"><hr></td></tr>
+<tr><th class="index-letter-header-printindex cp-letter-header-printindex" colspan="2" id="Index_cp_letter-O">O</th></tr>
+<tr><td class="printindex-index-entry"><a href="#index-Off_002dline-install">Off-line install</a></td><td class="printindex-index-section"><a href="#Installing-and-loading">Installing and loading</a></td></tr>
+<tr><td class="printindex-index-entry"><a href="#index-Online-install">Online install</a></td><td class="printindex-index-section"><a href="#Installing-and-loading">Installing and loading</a></td></tr>
+<tr><td colspan="2"><hr></td></tr>
+<tr><th class="index-letter-header-printindex cp-letter-header-printindex" colspan="2" id="Index_cp_letter-P">P</th></tr>
+<tr><td class="printindex-index-entry"><a href="#index-prod">prod</a></td><td class="printindex-index-section"><a href="#ncBaseArray">ncBaseArray</a></td></tr>
+<tr><td colspan="2"><hr></td></tr>
+<tr><th class="index-letter-header-printindex cp-letter-header-printindex" colspan="2" id="Index_cp_letter-R">R</th></tr>
+<tr><td class="printindex-index-entry"><a href="#index-reduce">reduce</a></td><td class="printindex-index-section"><a href="#ncBaseArray">ncBaseArray</a></td></tr>
+<tr><td colspan="2"><hr></td></tr>
+<tr><th class="index-letter-header-printindex cp-letter-header-printindex" colspan="2" id="Index_cp_letter-S">S</th></tr>
+<tr><td class="printindex-index-entry"><a href="#index-size">size</a></td><td class="printindex-index-section"><a href="#ncBaseArray">ncBaseArray</a></td></tr>
+<tr><td class="printindex-index-entry"><a href="#index-std">std</a></td><td class="printindex-index-section"><a href="#ncBaseArray">ncBaseArray</a></td></tr>
+<tr><td class="printindex-index-entry"><a href="#index-subsasgn">subsasgn</a></td><td class="printindex-index-section"><a href="#ncArray">ncArray</a></td></tr>
+<tr><td class="printindex-index-entry"><a href="#index-subsref">subsref</a></td><td class="printindex-index-section"><a href="#ncArray">ncArray</a></td></tr>
+<tr><td class="printindex-index-entry"><a href="#index-sum">sum</a></td><td class="printindex-index-section"><a href="#ncBaseArray">ncBaseArray</a></td></tr>
+<tr><td class="printindex-index-entry"><a href="#index-sumsq">sumsq</a></td><td class="printindex-index-section"><a href="#ncBaseArray">ncBaseArray</a></td></tr>
+<tr><td colspan="2"><hr></td></tr>
+<tr><th class="index-letter-header-printindex cp-letter-header-printindex" colspan="2" id="Index_cp_letter-T">T</th></tr>
+<tr><td class="printindex-index-entry"><a href="#index-Test-script">Test script</a></td><td class="printindex-index-section"><a href="#Test-script">Test script</a></td></tr>
+<tr><td class="printindex-index-entry"><a href="#index-test_005fncarray">test_ncarray</a></td><td class="printindex-index-section"><a href="#Test-script">Test script</a></td></tr>
+<tr><td colspan="2"><hr></td></tr>
+<tr><th class="index-letter-header-printindex cp-letter-header-printindex" colspan="2" id="Index_cp_letter-V">V</th></tr>
+<tr><td class="printindex-index-entry"><a href="#index-var">var</a></td><td class="printindex-index-section"><a href="#ncBaseArray">ncBaseArray</a></td></tr>
+<tr><td colspan="2"><hr></td></tr>
+<tr><th class="index-letter-header-printindex cp-letter-header-printindex" colspan="2" id="Index_cp_letter-W">W</th></tr>
+<tr><td class="printindex-index-entry"><a href="#index-warranty">warranty</a></td><td class="printindex-index-section"><a href="#Copying">Copying</a></td></tr>
+<tr><td colspan="2"><hr></td></tr>
 </table>
-<table class="cp-letters-footer-printindex"><tr><th>Jump to: &nbsp; </th><td><a class="summary-letter-printindex" href="#Index_cp_letter-B"><b>B</b></a>
+<table class="index-letters-footer-printindex cp-letters-footer-printindex"><tr><th>Jump to: &nbsp; </th><td><a class="summary-letter-printindex" href="#Index_cp_letter-B"><b>B</b></a>
  &nbsp; 
 <a class="summary-letter-printindex" href="#Index_cp_letter-C"><b>C</b></a>
  &nbsp; 

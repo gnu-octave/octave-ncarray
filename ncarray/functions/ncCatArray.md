@@ -2,7 +2,7 @@
 layout: "default"
 permalink: "/functions/10_ncCatArray/"
 pkg_name: "ncarray"
-pkg_version: "1.0.6"
+pkg_version: "1.0.7"
 pkg_description: "Access a single or a collection of NetCDF files as a multi-dimensional array"
 title: "Ncarray Toolkit - ncCatArray"
 category: "Test script"

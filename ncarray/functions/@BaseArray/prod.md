@@ -2,7 +2,7 @@
 layout: "default"
 permalink: "/functions/@BaseArray/15_BaseArrayprod/"
 pkg_name: "ncarray"
-pkg_version: "1.0.6"
+pkg_version: "1.0.7"
 pkg_description: "Access a single or a collection of NetCDF files as a multi-dimensional array"
 title: "Ncarray Toolkit - @BaseArray/prod"
 category: "Test script"

@@ -2,7 +2,7 @@
 layout: "default"
 permalink: "/functions/17_cacheddecompress/"
 pkg_name: "ncarray"
-pkg_version: "1.0.6"
+pkg_version: "1.0.7"
 pkg_description: "Access a single or a collection of NetCDF files as a multi-dimensional array"
 title: "Ncarray Toolkit - cached_decompress"
 category: "Test script"

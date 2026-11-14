@@ -3,7 +3,7 @@ layout: "default"
 permalink: "/news/"
 title: "Ncarray Toolkit - News"
 pkg_name: "ncarray"
-version: "1.0.6"
+version: "1.0.7"
 description: "Access a single or a collection of NetCDF files as a multi-dimensional array"
 navigation:
 - id: "overview"
@@ -19,6 +19,13 @@ navigation:
   url: "/manual"
 ---
 <pre>
+Summary of important user-visible changes for ncarray 1.0.7:
+------------------------------------------------------------
+
+ ** minor updates for octave compatibility
+
+ ** Added package docs
+
 Summary of important user-visible changes for ncarray 1.0.6:
 ------------------------------------------------------------
 

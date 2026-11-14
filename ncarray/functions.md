@@ -3,7 +3,7 @@ layout: "function_list"
 permalink: "/functions/"
 title: "Ncarray Toolkit - Functions"
 pkg_name: "ncarray"
-version: "1.0.6"
+version: "1.0.7"
 description: "Access a single or a collection of NetCDF files as a multi-dimensional array"
 categories:
 - id: "7_ncArray"
